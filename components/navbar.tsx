@@ -44,8 +44,8 @@ export function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 top-[73px] bg-background z-40 md:hidden flex flex-col p-6 animate-in slide-in-from-top duration-300">
-          <div className="flex flex-col gap-6 text-2xl font-bold uppercase italic tracking-tighter text-primary">
+        <div className="fixed left-0 right-0 top-[65px] bg-background z-40 p-6 md:hidden flex flex-col animate-in slide-in-from-top duration-300">
+          <div className="flex flex-col w-full gap-6 text-2xl font-bold uppercase italic tracking-tighter text-primary">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
