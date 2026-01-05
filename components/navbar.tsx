@@ -9,10 +9,10 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Menu", href: "#menu" },
-    { name: "Location", href: "#location" },
-    { name: "Contact", href: "#contact" },
+    { name: "Restaurants", href: "/" },
+    { name: "Hotels", href: "/hotels" },
+    { name: "Night Clubs", href: "/nightclubs" },
+    { name: "Lounge", href: "/lounge" },
   ]
 
   return (
